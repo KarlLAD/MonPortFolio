@@ -8,16 +8,18 @@
 
     </head>
     <body>
-        <!-- nav bar de nivigation -->
+        <!-- nav bar de navigation -->
         <nav>
             <div class="profile">
                 <img src="images/avatar_bureau_1.jpg" alt="profile folio">
                 <h1>Karl LADOUR</h1>
             </div>
             <ul>
-                <li>Indeed</li>
-                <li>Mes projets</li>
-                <li>Curriculum Vitae</li>
+                
+                <a href="https://www.linkedin.com/in/karl-ladour-b42007270"><li>LinkedIn</li></a>
+                <a href="#projets-section"><li>Mes projets</li></a>
+                <a href="#CV-section"><li>Curriculum Vitae</li></a>
+                
                 <a href="blog.html"><li>Mon Blog</li></a>
             </ul>
         </nav>
@@ -29,10 +31,17 @@
                 <h1> Hey, Je suis Concepteur-Développeur d'applications</h1>
 
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Animi aspernatur nihil deserunt exercitationem ex, totam ea
-                    modi est in quis dignissimos amet quam reiciendis minus
-                    suscipit, qui perferendis libero unde.
+                    A partir du cahier des charges de l’application ou d’un scénario utilisateur, le concepteur développeur conçoit 
+                    la solution puis développe ou adapte des composants afin de construire une application sécurisée dans une 
+                    architecture applicative n-tiers. Il développe ou utilise des composants logiciels d’interface restituant des 
+                    résultats de traitements logiciels, puis les intègre afin de satisfaire les besoins des utilisateurs du système 
+                    d’information. Il modélise, crée ou adapte une base de données afin d’assurer le stockage et la gestion des données 
+                    d’un système d’information, Il automatise des processus d’entreprise dans une architecture technique et applicative 
+                    n-tiers, à partir de composants fonctionnant sur des serveurs distincts et coopérant au travers d’un réseau. 
+                    Il participe à l’élaboration de la stratégie de déploiement et de sécurité de l’application. Il déploie les 
+                    composants réalisés sur les serveurs de tests de l’architecture prévue. Il respecte les contraintes de sécurité 
+                    telles que l’accessibilité, la confidentialité et l’intégrité. Il a en charge la définition des environnements de 
+                    tests et de développement. 
 
                 </p>
 
@@ -45,17 +54,16 @@
             </section>
             <!-- section nos projets -->
 
-            <section class="projets-section">
+            <section class="projets-section"  id="projets-section" >
                 <h1>Projets réalisés</h1>
                 <div class="projets">
                     <div class="projet">
                         <h4> TodoList </h4>
                         <p class="description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Porro omnis laborum sapiente tempora nostrum
-                            debitis dicta molestiae illum corporis. Distinctio
-                            ipsa id itaque, quos reprehenderit ratione esse sunt
-                            dignissimos molestiae.
+                            Création d'une TodoList pour lister les diverses tâches
+                            à réaliser. Cela permet de prioriser certaines tâches.
+                            On a utilisé le C.R.U.D (create, Read, Update, Delete)
+
                         </p>
                         <p class="dates">
                             date 2023-2024
@@ -63,13 +71,12 @@
 
                     </div>
                     <div class="projet">
-                        <h4> Annonces </h4>
+                        <h4> Annonces : KarlAnnonces</h4>
                         <p class="description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Porro omnis laborum sapiente tempora nostrum
-                            debitis dicta molestiae illum corporis. Distinctio
-                            ipsa id itaque, quos reprehenderit ratione esse sunt
-                            dignissimos molestiae.
+                            Cette appplication affiche des annonces saisies par l'administrateur.
+                            Ce projet a été réalisé avec laravel. On géré les routes, controlleurs, etc.
+                            <br/> 
+                            <a href="https://github.com/KarlLAD/KarlAnnonces.git">KarlAnnonces</a>
                         </p>
                         <p class="dates">
                             date 2023-2024
@@ -77,53 +84,192 @@
 
                     </div>
                     <div class="projet">
-                        <h4> E-commerce </h4>
+                        <h4> E-commerce : myshop</h4>
                         <p class="description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Porro omnis laborum sapiente tempora nostrum
-                            debitis dicta molestiae illum corporis. Distinctio
-                            ipsa id itaque, quos reprehenderit ratione esse sunt
-                            dignissimos molestiae.
+                            J'ai développé une application de E-commerce : myshop.
+                            Cette application a été fait avec les outils (laravel, filament) avec la gestion de base de donnée SQL
+                            en back-end et fond-end, de compte utilisateurs, administrateur.
+                            Administrateur saisie les annonces de commerce en back-end qui seront affichés pour
+                            l'utilisateur, il utilise le C.R.U.D (create, Read, Update, Delete).
+                            L'utilisateur peut remplir le panier avec la quantité d'articles et valider la panier.
+                           <br/> 
+
+                           <a href="https://github.com/KarlLAD/myshop.git">myshop</a> 
                         </p>
+
                         <p class="dates">
                             date 2023-2024
                         </p>
 
                     </div>
+
                     <div class="projet">
-                        <h4>Figma </h4>
+                        <h4> html/CSS : FoodFun</h4>
                         <p class="description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Porro omnis laborum sapiente tempora nostrum
-                            debitis dicta molestiae illum corporis. Distinctio
-                            ipsa id itaque, quos reprehenderit ratione esse sunt
-                            dignissimos molestiae.
+                            On a réalisé ce projet à partir d'un exemple de photocopie
+                            j'ai appris à maitriser la programmation en CSS, affichage avec les commandes 
+                            flex et sa gestion.
+                            <br/> 
+                            <a href="https://github.com/KarlLAD/firebase/tree/main/FoodFun">FoodFun</a>
                         </p>
                         <p class="dates">
                             date 2023-2024
                         </p>
 
                     </div>
+
                     <div class="projet">
-                        <h4> React </h4>
+                        <h4>Figma : VoyagesDreams </h4>
                         <p class="description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Porro omnis laborum sapiente tempora nostrum
-                            debitis dicta molestiae illum corporis. Distinctio
-                            ipsa id itaque, quos reprehenderit ratione esse sunt
-                            dignissimos molestiae.
+                            Ce projet a été d'abord réalisé sur Figma pour la maquettage. Puis il a été codé en html et CSS
+
+                            <br/> 
+                            <a href="https://github.com/KarlLAD/firebase/tree/main/VoyagesDreams">VoyagesDreams</a>
                         </p>
                         <p class="dates">
                             date 2023-2024
                         </p>
 
                     </div>
+                    
 
                 </div>
 
             </section>
 
         </section>
+
+            <!-- CV -->
+
+            <section class="CV-section" id="CV-section">
+                <h1>Curriculum Vitae (CV)</h1>
+<!-- profil -->
+                    <div class="profil">
+                        <h4>Karl LADOUR</h4>
+                        <p class="adresse">Adresse : ZABETH VERT-PRE</p>
+
+                        <div class="code-postal-ville">
+                            <li>Code postal : 97231  </li>
+                            <li>Ville : LE ROBERT</li>
+                        
+                        </div>
+                        
+                        <a href="tel:+59606096026066008"><p class="telephone">Tel : +596 06096026066008</p></a>
+
+                        <a href="mailto:karl.ladour@wanadoo.fr" class="btn btn-primary"><p class="Email">karl.ladour@wanadoo.fr</p></a>
+                        <p class="permis">Permis B</p>
+                    </div>
+
+<!-- formation -->
+
+                    <div class="formations">
+                        <h4>FORMATION</h4>
+                        <p class="dates-form"> 1998-2001</p>
+                        <p class="titre-formation">D.U.T Génie électrique et Informatique Industrielle Option Automatisme et systèmes.</p>
+                        <p class="dates-form"> 1998 </p>
+                        <p class="titre-formation">Baccalauréat général Scientifique option Technologie et mathématique spécialisées.</p>
+
+                        <!-- EXPERIENCE PROFESSIONNELLE -->
+                    </div>
+                        <div class="experiences">
+                            <h4>expérience professionelle</h4>
+                            <p class="nom-type">Laboratoire T.I.M.A. | DEVELOPPEUR LOGICIEL | 5 mois</p>
+                            <p class="description-pro">Concevoir d’un logiciel de simulation d’injecteur 
+                                de fautes à cause des perturbations électro-magnétiques du soleil. </p>
+
+                            <p class="nom-type">Caraib Elec Telecom | Stage | 2017</p>
+                            <p class="description-pro">Immersion d'une semaine pour comprendre le fonctionnement d'une entreprise. </p>
+
+                        </div>
+
+<!-- COMPETENCES PROFESSIONNELLES -->
+            <div class="competences">
+                <h4>COMPETENCE PROFESSIONNELLE</h4>
+
+                <div class="competences-diverses">
+                
+                <p class="systèmes d'exploitation">Windows/linux:</p>
+               <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+               <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+               <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+               <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+               <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+               <img src="./images/cercle-gris.png" alt="" class="ccplus"> 
+               <img src="./images/cercle-gris.png" alt="" class="ccplus"> 
+               
+
+                <p class="outils">Laravel/Git :</p>
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-gris.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-gris.png" alt="" class="ccplus"> 
+
+               
+
+                <p class="langage">html/CSS/Javascript : </p>
+                <img src="./images/cercle-rempli.png" alt="" class="html-css-js">
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-gris.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-gris.png" alt="" class="ccplus"> 
+
+
+                <p class="langage">C/C++ :</p>
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-gris.png" alt="" class="ccplus">  
+
+
+                <p class="langage">PHP/MySQL : </p>
+                <img src="./images/cercle-rempli.png" alt="" class="php-sql">
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-rempli.png" alt="" class="ccplus"> 
+                <img src="./images/cercle-gris.png" alt="" class="ccplus">  
+                <img src="./images/cercle-gris.png" alt="" class="ccplus">  
+
+
+                <p class="anglais-lu">Anglais technique lu : </p>
+                <img src="./images/cercle-rempli.png" alt="" class="anglais-lu">
+                <img src="./images/cercle-rempli.png" alt="" class="anglais-lu">
+                <img src="./images/cercle-rempli.png" alt="" class="anglais-lu">
+                <img src="./images/cercle-gris.png" alt="" class="ccplus">
+                <img src="./images/cercle-gris.png" alt="" class="ccplus">
+                <img src="./images/cercle-gris.png" alt="" class="ccplus">
+
+
+                <p class="anglais-speak">Anglais parlé : </p>
+                <img src="./images/cercle-rempli.png" alt="" class="anglais-speak">
+                <img src="./images/cercle-gris.png" alt="" class="ccplus">  
+                <img src="./images/cercle-gris.png" alt="" class="ccplus">  
+                <img src="./images/cercle-gris.png" alt="" class="ccplus">  
+                <img src="./images/cercle-gris.png" alt="" class="ccplus">  
+                <img src="./images/cercle-gris.png" alt="" class="ccplus">  
+
+            </div>
+
+
+            </div>
+
+            </section>
+
+            
+
+
+
+
+
+
         
         <!-- Pied de page : footer -->
 
@@ -131,21 +277,23 @@
 
             <div class="colonne">
                 <h3>Mes services</h3>
-                <a href="about.html"><p>Développement de projet IA</p></a>
-                <p>Prestation en IA</p>
-                <p>Investissement en entreprise IA</p>
+                <a href="about.html"><p>Conception et Développement d'applications</p></a>
+                <p class="barrer">Prestation d'application</p>
+                <p  class="barrer">Investissement en entreprise </p>
             </div>
             <div class="colonne">
                 <h3>Mon entreprise</h3>
-                <p>Équipe constitué de 20k ingénieurs</p>
-                <p>Une communauté active mondiale</p>
-                <p>Une entreprise à but lucratif</p>
+                <p  class="barrer">Équipe constitué de 1 </p>
+                <p  class="barrer">Une communauté active mondiale</p>
+                <p  class="barrer">Une entreprise à but lucratif</p>
             </div>
             <div class="colonne">
                 <h3>Mes adresses</h3>
-                <p>artificial@gmail.com</p>
-                <p>intelligence@gmail.com</p>
-                <p>google-science@google.com</p>
+                <a href="maito:k.ladour@gmail.com"><p>k.ladour@gmail.com</p></a>
+                
+                <a href="maito:karl.ladour@wanadoo.fr"><p>karl.ladour@wanadoo.fr</p></a>
+                
+
             </div>
 
 

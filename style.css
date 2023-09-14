@@ -11,7 +11,7 @@ body {
 
 nav {
 
-    display: flex;
+   display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    align-items: center;
@@ -176,7 +176,7 @@ nav ul li:hover {
 
 .page-content .projets-section .projets .projet .description {
 
-    font-size: 10px;
+    font-size: 13px;
 
 }
 
@@ -187,8 +187,85 @@ nav ul li:hover {
 
 }
 
+/* C V */
+
+.CV-section {
+
+    margin-top: 6%;
+}
+
+ .CV-section h1 {
+    
+    font-size: 'Oswald', 'sans-serif';
+    text-transform: uppercase;  /*  text en majuscule */
+    font-size: 3vw;
+ }
+ 
+ .CV-section .profil {
+
+    display: flex;
+    flex-direction: column;
 
 
+
+   
+ }
+ 
+ .CV-section .profil .code-postal-ville {
+
+    list-style-type: none; /*  enlever les petits points  */ 
+
+ }
+.CV-section .formations {
+
+    color: #000;
+    margin-top: 6%;
+}
+
+.CV-section .formations .dates-form {
+    color: #818181;
+ 
+}
+
+ /* experiences */
+
+ .CV-section .experiences h4 {
+
+    text-transform: uppercase;
+    margin-top: 6%;
+
+ }
+
+
+ /* competence professionnelle */
+
+ .CV-section .competences {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    
+ }
+
+ .CV-section .competences .competences-diverses img {
+       
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+ }
+.CV-section .competences h4 {
+
+    text-transform: uppercase;
+    margin-top: 6%;
+ }
+
+
+ .CV-section .competences .competences-diverses {
+
+    align-content: space-between;
+ }
+
+
+/* Footer */
 footer {
 
     margin-top: 5%;
@@ -219,6 +296,11 @@ footer .colonne p  {
 footer .colonne p:hover {
     color: #fff;
 
+}
+
+footer .barrer {
+
+    text-decoration: line-through;
 }
 
 
